@@ -2,6 +2,14 @@ body {
     margin: 0;
     padding: 0;
     height: max-content;
-    background-color: #F5DADF;
+    background-color:white;
 }
-body img {z-index: -100;}
+body .image {
+    height: 1080px;
+    width: auto;
+    background-color: white;
+z-index: -100;}
+.textcontent {z-index: 5;
+    color: black;
+    display: flex;
+}
