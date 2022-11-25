@@ -6,7 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    body {background-color: #F5DADF;}
+</style>
 <body>
-    testing
+    <style>
+        #darkmodemenu {
+          position:absolute;
+          top:-40px;
+          right:16px;
+          padding:5px 20px 10px 18px;
+          border-bottom-left-radius:5px;
+          border-bottom-right-radius:5px;
+          z-index:-1;
+          transition: top 0.2s;
+          user-select: none;
+        }
+        #darkmodemenu input,#darkmodemenu label {
+          cursor:pointer;
+        }
+        </style>
+    <script>
+        (
+        function setThemeMode() {
+          var x = localStorage.getItem("preferredmode");
+          var y = localStorage.getItem("preferredpagemode");  
+          if (x == "dark") {
+            document.body.className += " darktheme";
+          }
+          if (y == "dark") {
+            document.body.className += " darkpagetheme";
+          }
+        })();
+        </script>
+    <header
 </body>
 </html>
