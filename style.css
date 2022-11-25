@@ -1,0 +1,7 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: max-content;
+    background-color: #F5DADF;
+}
+body img {z-index: -100;}
