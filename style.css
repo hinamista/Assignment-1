@@ -11,3 +11,7 @@ body .image {
     line-height: 0;
     z-index: -100;
 }
+.navbar .icon img{
+    height: 60px;
+    width: auto;
+}
