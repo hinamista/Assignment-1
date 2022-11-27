@@ -9,4 +9,5 @@ body .image {
     width: auto;
     background-color: #F5DADF;
     line-height: 0;
-z-index: -100;}
+    z-index: -100;
+}
