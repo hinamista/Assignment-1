@@ -8,8 +8,8 @@
     font-family: system-ui;
 }
 .image {
-    height: 1080px;
-    width: auto;
+    height: auto;
+    width: 100%;
     background-color: #F5DADF;
     line-height: 0;
     z-index: -100;
@@ -17,15 +17,22 @@
 /* .navbar{
     color: #FFA9D1; position: absolute; top: 0%; width:0%; text-align: center;
 } */
-.navbar .home{
+.home{
     height: 70px;
     width: auto;
 }
-li, a {
+li, a{
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: bold 700;
-    font-size: 16px;
+    font-size: 22px;
     color: #FFA9D1;
+    text-decoration: none;
+}
+button{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold 700;
+    font-size: 22px;
+    color: white;
     text-decoration: none;
 }
 header{
@@ -33,4 +40,32 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
+    width: 100%;
+}
+.home{
+    cursor: pointer;
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+    color: #4190C9;
+}
+button{
+    padding: 9px 25px;
+    background-color:#FFA9D1;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: #4190C9;
 }
