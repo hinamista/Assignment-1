@@ -14,9 +14,9 @@
     line-height: 0;
     z-index: -100;
 }
-/* .navbar{
-    color: #FFA9D1; position: absolute; top: 6%; width:11%; text-align: center;
-} */
+.navbar{
+    color: #FFA9D1; position: absolute; top: 0%; width:0%; text-align: center;
+}
 .navbar .home{
     height: 70px;
     width: auto;
