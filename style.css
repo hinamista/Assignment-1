@@ -7,7 +7,7 @@
     background-color: #ffffff;
     font-family: system-ui;
 }
-.image {
+.image img {
     height: auto;
     width: 100%;
     background-color: #F5DADF;
@@ -18,7 +18,7 @@
     color: #FFA9D1; position: absolute; top: 0%; width:0%; text-align: center;
 } */
 .home{
-    height: 70px;
+    height: 50px;
     width: auto;
 }
 li, a{
@@ -69,3 +69,4 @@ button{
 button:hover{
     background-color: #4190C9;
 }
+.navbar {width: 100%;}
