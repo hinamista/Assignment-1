@@ -6,12 +6,12 @@
     height: max-content;
     background-color: #ffffff;
     font-family: system-ui;
+    line-height: 0;
 }
 .image img {
     height: auto;
     width: 100%;
     background-color: #F5DADF;
-    line-height: 0;
     z-index: -100;
 }
 /* .navbar{
@@ -65,6 +65,7 @@ button{
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    line-height: 1;
 }
 button:hover{
     background-color: #4190C9;
