@@ -214,3 +214,32 @@ body{
       width: 100%;
     }
 }
+.container{
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+}
+.img{
+    max-width: 100%;
+}
+.text{
+    position: fixed;
+    color: #FFA9D1;
+    background-color: #ffffff;
+    height: auto;
+    max-width: 50%;
+    top: 75px;
+    right: 0%;
+
+}
+h1, p{
+    font-size: 20px;
+    line-height: 1;
+    padding: 20px;
+}
+.container > div{
+    flex-basis: 50%;
+}
+.img-col{
+    flex-basis: 30%;
+}
