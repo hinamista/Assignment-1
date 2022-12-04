@@ -245,3 +245,18 @@ p{
 .page3{
     background-color: #ffffff;
 }
+.youtube{
+    position: absolute;
+    height: auto;
+    width: 100%;
+    top: 15%;
+    z-index: -1;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+.youtube img{
+    padding-bottom: 3%;
+    height: 225px;
+    width: 225px;
+}
