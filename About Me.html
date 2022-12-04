@@ -24,12 +24,28 @@
         <a class="socials" href="https://youtube.com/channel/UCnZ5KINg2gfH1mJn1YB003g" target="_blank"><img src="media/youtube.png" alt="Youtube"></a>
         <a class="socials" href="https://twitter.com/hinamista?s=21" target="_blank"><img src="media/twitter.png" alt="Twitter"></a>
     </div>
-    <div>
-        <img src="media/vtuber_model_completed.png" width="100%" height="auto">
-        <div>
-            <h1>About Hinami:</h1>
-            <a></a>
+    <div class="container">
+        <img id="myImg" src="media/vtuber_model_completed.png" alt="Fullbody Model" style="width:50%; height: auto;">
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+        <div id="caption"></div>
         </div>
+        <script>
+            var modal = document.getElementById("myModal");
+            var img = document.getElementById("myImg");
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            img.onclick = function(){
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+            }
+            var span = document.getElementsByClassName("close")[0];
+            span.onclick = function() {
+            modal.style.display = "none";
+            }
+        </script>
     </div>
 </body>
 </html>
