@@ -12,34 +12,23 @@ https://xd.adobe.com/view/71adc5b7-b1ec-4b5d-8b2c-63caea55fa39-24fe/
 
 Existing Features
 Navigation Bar - allows users to navigate through the different webpages with ease and convenience
-Modal images - allows users to view the full image against a dark background
+Modal box - allows users to view the full image against a dark background
 Social Media Icons - allows users to easily access social media pages
 
-Features Left to Implement
-
 Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+In this website, I used html, css and a little bit of javascript. 
+html - https://html.com (It was used to provide the main structure of the website)
+css - https://www.w3.org/Style/CSS/Overview.en.html (It was used to add aesthetics and make the website look visually appealing)
+javascript - https://www.javascript.com (It was used to make the website more interactive to users)
 
-JQuery
-The project uses JQuery to simplify DOM manipulation.
 Testing
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+The way I tested was that I tried out the actual website as a user. It was a form of trial and error.
+I ran the website again and again after every change to try and figure out what the problems in the codes were until I finally found the issue. And to fix the issue, I did more trials-and-errors. It was really a lot of experimentations.
 
 Credits
 Content
-The text for section Y was copied from the Wikipedia article Z
+The content was made by me.
 Media
-The photos used in this site were obtained from ...
+I got the images from https://vocaloid.fandom.com/wiki/Vocaloid_Wiki
 Acknowledgements
-I received inspiration for this project from X
+I received inspiration from NIJISANJI's official site (https://www.nijisanji.jp/en)
