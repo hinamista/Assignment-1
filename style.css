@@ -260,3 +260,7 @@ p{
     height: 225px;
     width: 225px;
 }
+.youtube img:hover{
+    cursor: pointer;
+    opacity: .75;
+}
