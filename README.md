@@ -12,6 +12,8 @@ https://xd.adobe.com/view/71adc5b7-b1ec-4b5d-8b2c-63caea55fa39-24fe/
 
 Existing Features
 Navigation Bar - allows users to navigate through the different webpages with ease and convenience
+Modal images - allows users to view the full image against a dark background
+Social Media Icons - allows users to easily access social media pages
 
 Features Left to Implement
 
