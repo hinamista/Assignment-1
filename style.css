@@ -264,3 +264,21 @@ p{
     cursor: pointer;
     opacity: .75;
 }
+.bts_media{
+    position: absolute;
+    height: auto;
+    width: 100%;
+    top: 10%;
+    z-index: -1;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+.bts_media img{
+    height: 720px;
+    width: 1225px;
+}
+.bts_media video{
+    height: 720px;
+    width: 1225px;
+}
